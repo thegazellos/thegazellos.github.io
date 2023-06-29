@@ -67,7 +67,7 @@ p {
 
 ul {
     list-style-type: none;
-    font-size: 2rem;
+    font-size: clamp(1rem, 2rem, 2rem);
 }
 
 #text-logo { 
