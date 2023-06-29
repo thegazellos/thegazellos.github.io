@@ -322,10 +322,11 @@ footer {
 @media only screen and (max-width: 480px) and (min-width: 414px) {
     
     .navbar ul li {
-        font-size: clamp(4px, 10px, 13px);
+        font-size: clamp(8px, 10px, 13px);
+        margin-left: 15px;
     }
 
     .navbar ul {
-        margin-right: 1vw;
+        padding-right: 1vw;
     }
 }
